@@ -1,0 +1,36 @@
+Git
+Sistema de control de versiones.
+creado por quien construyó linux
+Basados en puntos de control
+Terminal
+    pwd muestra en donde estamos
+    ls lista de documentos
+    ls -a lista de documentos ocultos
+    cd directorio
+    cd .. subir nivel
+    mkdir crear nueva carpeta
+    touch crear archivo
+    rm borrar archivos o carpetas vacias
+    rm -rf. borrar y borrar todo su contenido
+    ctrl c cancelar accion de la Terminal
+    rm -rf / borrar absolutamente todo
+    git add -A Sube todo lo del STAGING
+    git status El estado de git
+    git commit -m crear punto de control con un mensaje (-m) que describe que hizo en ese commit
+    git log Para ver los commit hechosgilog
+    git checkout numero del commit Nos regresa a ese punto
+    git remote add origin url
+    git remote -v nos ayuda a hacer la conexion bidireccional
+    git remote remove origin Borra el origen
+    git push origin master 
+    
+RUTAS RELATIVAS Y ABSOLUTAS
+    / usa ruta para acceder
+    touch
+TEST GITHUB
+    -Solo hacerlo dentro de esta carpeta
+    git init inicia para hacer aqui los commit, crea carprta oculta
+    -master: linea original del tiempo
+    WORKING AREA  (lo que vemos)
+    STAGING (lo que esta en espera de formar parte del commit)
+    COMMIT Punto de control

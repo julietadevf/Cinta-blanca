@@ -1,0 +1,8 @@
+/*siempre poner ;*/
+h1 {
+	font-size: 50px;
+	color: #282560;  /*"Material desing" para patron de diseño o "hex color" en google, referencia hexadecimal del color (A12 B13 ... F16) /cantidad de rojo/cantidad de verde/cantidad de azul/
+	font-family: Arial; /*Tipografia u tiene el navegador no el equio*/
+	font-weight: 50;
+	text-align: center;
+}

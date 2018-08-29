@@ -1,0 +1,5 @@
+Los objetos se componen de elementos y los elementos de llave y valor
+JPSON: Son formatos por medio de los cuales s etransmite informacióna  internet
+API: Interfaz de prograación. Son url de donde se puede pedir o mandar información
+Buscar API de google, 
+LOS OBJETOS PUEDEN OBTENER OTROS TIPOS DE DATOS INCLUSO OBJETOS

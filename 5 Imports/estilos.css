@@ -1,0 +1,25 @@
+@font-face{
+	font-family: "Roboto";
+	src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face{
+	font-family: "Oswald";
+	src: url("fonts/Oswald/Oswald-Regular.ttf");
+}
+@font-face{
+	font-family: "Hanalei_Fill";
+	src: url("fonts/Hanalei_Fill/HanaleiFill-Regular.ttf");
+}
+.icono-face{
+	color: red;
+	font-size: 100px;
+}
+.primeralinea{
+	font-family: "Roboto";
+}
+.segundalinea{
+	font-family: "Oswald";
+}
+.terceralinea{
+	font-family: "Hanalei_Fill"
+}

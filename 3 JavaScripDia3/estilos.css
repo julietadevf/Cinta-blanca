@@ -1,0 +1,121 @@
+body{
+	display: flex;
+	flex-direction: column;
+	border: solid 1px;
+	height: 650px;
+	justify-content: space-between;
+	padding: 0%;
+	margin: 0% auto;
+}
+header{
+	width: 100%;
+}
+
+.encabezado{
+	text-align: right;
+}
+.nav{
+	display: inline-flex;
+	height: 50px;
+	width: 300px;
+	align-items:center;
+	justify-content: space-around;
+	padding: 0px;
+}
+.nav p{
+	display: inline-flex;
+	height: 50px;
+	align-items:center;
+}
+.cuerpo{
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	align-items: center;
+}
+.logo{
+	width: 272px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px;
+	text-align: text-bottom;
+}
+.buscador{
+	width: 100%;
+	height: 34px;
+}
+.buscador1{
+	width: 505px;
+	height: 34px;
+}
+.buscargo{
+	width: 150px;
+	}
+.suerte{
+	width: 150px;
+}
+.botones{
+	padding: 10px;
+}
+.correo{
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+.imagenes{
+	font-family: Arial, sans-serif;
+	font-size: 13px;	
+}
+.nav a:link{
+	text-decoration: none;
+}
+.nav a:hover {
+	text-decoration: underline;
+}
+.idioma{
+	font-family: Arial, sans-serif;
+	font-size: 13px
+}
+.footer{
+	display: flex;
+	flex-direction: column;
+}
+.pais{
+	background-color: #f2f2f2;
+	padding-left: 27px;
+	height: 42px;
+	border-top: solid 1px #e4e4e4;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+}
+.pie{
+	display: flex;
+	background-color: #f2f2f2;
+	justify-content: space-between;
+	padding: 0%;
+	height: 40px;
+	border-top: solid 1px #e4e4e4;
+}
+.pie li{
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+
+}
+.ulpie{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 300px;
+	padding-left: 27px;
+	margin: 0%;
+	align-items: center;
+
+}
+.ulpie2{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 300px;
+	padding-right: 27px;
+	padding-left: 0px;
+	margin: 0%;
+	align-items: center;
+}

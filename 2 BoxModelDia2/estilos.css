@@ -1,0 +1,31 @@
+.PRINCIPAL{
+
+	border:solid 1px red;
+}
+.header{
+	border: solid 2px blue;
+}
+.logo{
+	/*width: 150px;*/
+	width: 80px;
+	vertical-align: middle;
+}
+
+.menulist{
+	display: inline-block;
+	width: 90%;
+	text-align: right;
+	border: solid 2px;
+	list-style: none;
+}
+.menulist li{
+	display: inline-block;
+	border:solid 1px red;
+	margin: 10px 20px 10px 20px;
+	padding: 5px;
+	font-size: 20px;
+	text-align: right;
+}
+.menulist a{
+	text-decoration: none;
+}

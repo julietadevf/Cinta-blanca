@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Tu VS la compu</title>
+  </head>
+  <body class="col-12 body1">
+      <div class="col-lg-4 col-sm-8 card-colum divjugador">
+        <h1>Elige tu pokémon</h1>
+        <div type="button" id="squirtle" class="card text-center carta" style="width: 18rem;">
+                <img class="card-img-left" src="https://vignette.wikia.nocookie.net/nintendo-lastchance/images/1/15/SQUIRTLUSA.png/revision/latest?cb=20150607222430" alt="Squirtle">
+                <div class="card-body card-1">
+                  <p class="card-text">Squirtle</p>
+                  <p>Pokemon tipo agua</p>
+                </div>
+        </div>
+        <div type="button" id="bulbasaur" class="card text-center carta" style="width: 18rem;">
+                <img class="card-img-top" src="https://3.bp.blogspot.com/-STkdspWw1Oc/VtT4it5zi3I/AAAAAAAAAAM/GcQBXe5DOd8/s1600/001Bulbasaur_AG_anime_3.png" alt="Bulbasaur">
+                <div class="card-body card-1">
+                  <p class="card-text">Bulbasaur</p>
+                  <p>Pokémon tipo planta/veneno</p>
+                </div>
+        </div>
+        <div type="button" id="charmander" class="card text-center carta" style="width: 18rem;">
+                <img class="card-img-top" src="https://qph.fs.quoracdn.net/main-qimg-86d0a95219674e71acd12b8a40426021" alt="Charmander">
+                <div class="card-body card-1">
+                  <p class="card-text">Charmander</p>
+                  <p>Pokémon tipo fuego</p>
+                </div>
+        </div>
+      </div>
+      <div class="resultados">
+        <div class="divresultado">
+          <h1>Resultado</h1>
+          <div id="divresultado" class="card text-center carta" style="width: 18rem;">
+                  <img class="card-img-left" src="https://mott.pe/noticias/wp-content/uploads/2016/11/La-vida-dentro-de-una-Pokebola-2.png" alt="pokebola">
+                  <div class="card-body card-1">
+                    <p class="card-text"></p>
+                    <p></p>
+                  </div>
+          </div>      
+        </div>
+        <div id="Resultado" class="resultado1">
+          <h1>Resultado</h1>
+        </div>
+        <div id="Marcador" class="Marcador">
+          <h2>Usuarario</h2>
+          <h2 id="Usuario">0</h2>
+          <h2>Computadora</h2>
+          <h2 id="cpu">0</h2>
+        </div>
+
+      </div>
+      <div class="lacompu">
+        <div id="divcompu" class="divcompu">
+          <h1>La computadora elige...</h1>
+          <div class="card text-center carta" style="width: 18rem;">
+                  <img class="card-img-left" src="https://img00.deviantart.net/984c/i/2015/113/2/9/the_kanto_starters_by_tails19950-d5rt4zf.png" alt="Los 3">
+                  <div class="card-body card-1">
+                    <p class="card-text">?????</p>
+                    <p>Pokemon tipo: ?????</p>
+                  </div>
+          </div>      
+        </div>
+        <div id="sqcompu" class="sqcompu">
+          <h1>La computadora elige</h1>
+          <div class="card text-center carta" style="width: 18rem;">
+                  <img class="card-img-left" src="https://vignette.wikia.nocookie.net/nintendo-lastchance/images/1/15/SQUIRTLUSA.png/revision/latest?cb=20150607222430" alt="sq">
+                  <div class="card-body card-1">
+                    <p class="card-text">Squirtle</p>
+                    <p>Pokemon tipo: agua</p>
+                  </div>
+          </div>      
+        </div>
+        <div id="blcompu" class="blcompu">
+          <h1>La computadora elige</h1>
+          <div class="card text-center carta" style="width: 18rem;">
+                  <img class="card-img-left" src="https://3.bp.blogspot.com/-STkdspWw1Oc/VtT4it5zi3I/AAAAAAAAAAM/GcQBXe5DOd8/s1600/001Bulbasaur_AG_anime_3.png" alt="bl">
+                  <div class="card-body card-1">
+                    <p class="card-text">Bulbasaur</p>
+                    <p>Pokemon tipo: tierra/veneno</p>
+                  </div>
+          </div>      
+        </div>
+        <div id="chcompu" class="chcompu">
+          <h1>La computadora elige</h1>
+          <div class="card text-center carta" style="width: 18rem;">
+                  <img class="card-img-left" src="https://qph.fs.quoracdn.net/main-qimg-86d0a95219674e71acd12b8a40426021" alt="ch">
+                  <div class="card-body card-1">
+                    <p class="card-text">Charmander</p>
+                    <p>Pokemon tipo: fuego</p>
+                  </div>
+          </div>      
+        </div>
+
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

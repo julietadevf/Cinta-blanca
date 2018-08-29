@@ -1,0 +1,28 @@
+JAVASCRIPT VERSION 6
+
+DOM Estructura de como funciona un navegador
+*Buscar paquetes de css Y javascript*
+SCRIPT Etiqueta para enlazar a javascript
+	No cargar script en head porque no avanza si javascript esta muy peado
+usar etiqueta alert para comprobar si estan conectados html y js
+VARIABLES.
+	Tipo texto (palabras reservadas)
+		let: para definir una variable
+		% Modulo, residuo en una división.
+			*numero /azul
+			*arreglo
+			*string /gris
+			*objeto
+PROMT Por defecto devuelve string
+TYPEOF Nos dice el tipo de dato (numero, arreglo, string, objeto)
+NUMBER Transforma a numero el dato
+OPERADORES LOGICOS
+	<
+	>
+	<=
+	>=
+	===
+	!==
+	&& (y)
+	else if () segunda condicion
+	

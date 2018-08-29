@@ -1,0 +1,19 @@
+.body{
+	display: inline;
+}
+.header{
+	border:solid 3px red;
+	width: 30%;
+}
+.mainfooter{
+	display: block;
+}
+.main{
+	border:solid 3px green;
+	width: 30%;
+}
+.footer{
+	border:solid 3px yellow;
+	width: 30%;
+	height: all 
+}

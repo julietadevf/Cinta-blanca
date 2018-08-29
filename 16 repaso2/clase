@@ -1,0 +1,36 @@
+para quitar un elemneot en pantalla chica
+none
+sm tablet
+md 
+lg compu
+xl pantalla smart tv
+
+ejemplo
+d-none
+d-sm-block
+col-sm-10
+col-md-12
+col-lg-10
+col-xl-8
+
+QUITAR style="width: 18rem
+
+USAR offset
+
+row SIEMPRE va con una case en col-1 en el elemento contenedor
+
+transparencia background: rgba(0,0,0,)
+
+cambios en css con elementos directos
+
+.clase>.clase>elemento
+
+ALINACION
+
+EJE X Justify
+EJE Y align-items
+
+MEDIA 
+
+EN CSS
+@media screen and (max-width:540px)

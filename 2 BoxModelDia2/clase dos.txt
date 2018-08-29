@@ -1,0 +1,18 @@
+siempre poner meta
+div es una etiqueta de caja para poner contenido que se adapta en ta maño segun lo que contenga, texto, imagen, etc. a menos que en estilos se defina la altura
+cLass despuesde la etiqueta le pone un "apodo" para que en css solo se aplique ese estilo
+ESTRUCTURA COMUN: HEADER, MAIN, FOOTER
+EN CSS: USAR PUNTO PARA DEFINIR ESTILO DE UNA CLASE DE ETIQUETA. No usar punto para definir estilo de una etiqueta
+NAV: Etiqueta de caja (otra como div)
+EN HTML No poner punto antes de la clase, poner espacio
+OL: Etiqueta para lista ordenada Y PONE NUMEROS. Dentro tiene items (li)
+UL:lista desordenada (viñetas) OCUPA EL 100% DEL ANCHO DE SU CAJA
+DISPLAY: MANERA en que se muestra la etiqueta
+	block: Ocupa el 100% del ancho del elemento
+	inline: Elementos uno al lado del otro y no se puede cambiar la altura
+	inline-block: Hibrido d elos anteriores
+MAGIN: Etiqueta par margenes
+PADDING: etiqueta para separación del borde hacia el texto interior
+
+hipervinculos
+	El orden de la etiqueta a (link) 

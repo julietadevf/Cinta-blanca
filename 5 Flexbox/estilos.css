@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+.header{
+    border: solid 2px red;
+}
+.nav{
+    display: flex;
+    border: solid 2px blue;
+    background:#118673;
+    padding: 15px 0px;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+}
+.menu li{
+    list-style: none;
+}
+.menu i{
+    font-size: 40px;
+    color: rgb(187, 235, 231);
+}
