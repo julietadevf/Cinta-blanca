@@ -34,3 +34,4 @@ TEST GITHUB
     WORKING AREA  (lo que vemos)
     STAGING (lo que esta en espera de formar parte del commit)
     COMMIT Punto de control
+checkout
